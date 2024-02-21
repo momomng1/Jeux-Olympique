@@ -14,8 +14,8 @@ a {
 }
 
 body {
-		background-color : #253627;
-	 height: 100%;
+background-color : white;
+height: 100%;
     margin: 0;
     padding: 0;
     min-height: 100vh;
@@ -871,15 +871,14 @@ footer nav .ensemblefoot {
     text-align: center;
     font-family: 'DM Serif Display', serif;
     padding: 5px;
-    color: #dbdedb;
+    color: black;
     width: 80%;
     transition-duration: 0.3s; /* Ajout de la transition pour les liens */
 
 
     &:hover {
         padding: 12px;
-        color: rgba(0, 0, 0, 0.7);
-        background-color: rgba(255, 255, 255, 0.3);
+        color: rgba(255, 255, 255, 0.7);
         width: 80%;
         transform: scaleX(0.8);
     }
@@ -907,9 +906,8 @@ footer nav .ensemblefoot {
     position: absolute;
     top: 0px;
     right: 0px;
-    filter: invert(94%) sepia(50%) saturate(4974%) hue-rotate(310deg) brightness(101%) contrast(101%);
     margin-right: 20px;
-    width: 65px;
+    width: 30px;
     transition-duration : 0.5s;
 
     &:hover {
