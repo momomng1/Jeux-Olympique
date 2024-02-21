@@ -199,16 +199,16 @@ footer nav .ensemblefoot {
 }
 
 .contenu {
-	padding-top : 30px;
-	display : flex;
-	flex-direction : column;
+	padding-top: 30px;
+	display: flex;
+	flex-direction: column;
 }
 
 .intro-titre {
 	    font-weight: 400;
 	font-size: 36px;
 	    font-family: 'Cormorant', sans-serif;
-	    color: :#e1b15d ;
+	    color: #e1b15d ;
 }
 
 .intro p {
@@ -233,14 +233,14 @@ footer nav .ensemblefoot {
 .star {
 	padding-bottom: 80px;
 	text-align: center;
-	color: #fff;
+	color: black;
 }
 
 .troll {
-	margin : auto;
+	margin: auto;
 	width: 80%;
-	text-align : center;
-	margin-bottom : 50px;
+	text-align: center;
+	margin-bottom: 50px;
 }
 
 .troll a {
