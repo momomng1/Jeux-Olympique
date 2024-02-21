@@ -148,7 +148,7 @@ footer a {
 	transition-duration : 1s;
 		&:hover {
 			opacity : 1;
-			color : 82c46c;
+			color : #82c46c;
 		}
 	
 }
