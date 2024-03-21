@@ -74,6 +74,20 @@
                 <img src="https://medias.paris2024.org/uploads/2020/11/GettyImages-589399278-Athletisme.jpg?x-oss-process=image/resize,w_2560,h_1685,m_lfit/format,webp">
             </section>
         </div>
+        <section class="info">
+            <div>
+                <h2>Billetterie</h2>
+                <a href="">en savoir plus</a>
+            </div>
+            <div>
+                <h2>Epreuves grands public</h2>
+                <a href="">en savoir plus</a>
+            </div>
+            <div>
+                <h2>test1</h2>
+                <a href="">en savoir plus</a>
+            </div>
+        </section>
     </div>
   
     <section class="cat-facts">
@@ -85,7 +99,6 @@
     </section>
 
     <script>
- // JavaScript pour récupérer les faits sur les chats
 function getCatFact() {
     fetch('https://cat-fact.herokuapp.com/facts/random?animal_type=cat&amount=1')
         .then(response => {
@@ -96,9 +109,9 @@ function getCatFact() {
         })
         .then(data => {
             if (data && data.text && data.text.trim() !== '') {
-                const catFact = data.text; // Récupère le fait sur les chats
+                const catFact = data.text;
                 if (containsCatWord(catFact)) {
-                    document.getElementById('cat-fact').textContent = catFact; // Affiche le fait sur les chats dans l'élément HTML
+                    document.getElementById('cat-fact').textContent = catFact; 
                 } else {
                     throw new Error('Le fait ne contient pas le mot "chat".');
                 }
@@ -108,12 +121,10 @@ function getCatFact() {
         })
         .catch(error => {
             console.error('Erreur lors de la récupération du fait sur les chats :', error.message);
-            // Afficher un message d'erreur dans l'élément HTML
             document.getElementById('cat-fact').textContent = 'Désolé, aucun fait sur les chats n\'a pu être trouvé.';
         });
 }
 
-// Vérifie si la phrase contient au moins le mot "chat"
 function containsCatWord(sentence) {
     return sentence.toLowerCase().includes('cat');
 }
