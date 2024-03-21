@@ -281,3 +281,37 @@ button {
 button:hover {
     background-color: #000; /* Changement de couleur au survol */
 }
+
+.info {
+    padding: 100px 0 100px 0;
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+    gap : 80px;
+    margin: auto;
+}
+
+.info div {
+    border-left: 1px solid rgba(0, 0, 0, 0.35);
+    padding: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.info div a {
+    margin-top: 15px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    min-width: 100px;
+    background-color: #000;
+    color: white;
+    transition-duration: 0.4s;
+
+    &:hover{
+        transform: scale(1.1);
+        background-color: white;
+        color: #000;
+        border: 0.5px solid rgba(0, 0, 0, 0.75);
+    }
+}
