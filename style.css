@@ -182,7 +182,7 @@ header nav ul{
 }
 
 
-@media  screen and (max-width: 1500px) {
+@media  screen and (max-width: 1024px) {
     .jeux section{
         flex-direction: column;
     }
@@ -196,7 +196,7 @@ header nav ul{
     }
 }
 
-@media  screen and (min-width: 1500px) {
+@media  screen and (min-width: 1024px) {
     .jeux a{
       margin-bottom: 40px;
     }
