@@ -1,0 +1,81 @@
+* {
+    padding : 0;
+    margin : 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(12,19,36);
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#titre {
+    color: #F4D35E;
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+    margin: auto;
+    width: 90%;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.joueur {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 15px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: RGBA(240, 240, 240, 0.7);
+    color: black;
+    max-width: 450px;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.espace {
+    margin: 30px 0 30px 0;
+}
+
+.rouge {
+    color: #F3143E;
+}
+
+nav {
+    padding: 20px;
+    margin: 30px 0 30px 0;
+    display: flex;
+    justify-content: center;
+    gap : 50px;
+    }
+  
+  nav a {
+    text-align: center;
+    width : 100px;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: #FFD966;
+    opacity: 0.9;
+    color:#1E2432;
+    transition: all 0.4s ease;
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+  
+    &:hover {
+      transform: scale(1.1);
+      background-color: rgb(12,19,36);
+      color: #FFD966;
+    }
+  }

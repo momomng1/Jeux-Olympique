@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="football.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <title>Résultats de la Premier League</title>
+</head>
+<body>
+    <h1 id="titre">Équipe de France de Football JO 2020</h1>
+    <nav>
+        <a href="index.html">Acceuil</a>
+    </nav>
+    <div class="grid">
+        <div>
+            <img style="max-width: 400px;display: block;margin: auto;padding: 20px 0 20px 0;" src="https://static.actu.fr/uploads/2022/12/randal-kolo-muani.jpg" alt="">
+            <div class="joueur" id="matches1">Chargement...</div>
+        </div>
+    </div>
+    <div class="espace"></div>
+    <div class="grid">
+        <div>
+            <img style="max-width: 400px;display: block;margin: auto;padding: 20px 0 20px 0;" src="https://www.footballdatabase.eu/images/photos/players/2021-2022/a_371/371634.jpg" alt="">
+            <div class="joueur" id="matches2">Chargement...</div>
+        </div>
+    </div>
+    <div class="espace"></div>
+    <div class="grid">
+        <div>
+            <img style="max-width: 400px;display: block;margin: auto;padding: 20px 0 20px 0;" src="https://images.rtl.fr/~c/2000v2000/rtl/www/1569694-amine-gouiri-avec-rennes-le-23-octobre-2022-contre-angers.jpg" alt="">
+            <div class="joueur" id="matches3">Chargement...</div>
+        </div>
+    </div>
+    <div class="espace"></div>
+    <div class="grid">
+        <div>
+            <img style="max-width: 400px;display: block;margin: auto;padding: 20px 0 20px 0;" src="https://pbs.twimg.com/media/FvUGXiRXsAMaGN3.jpg" alt="">
+            <div class="joueur" id="matches4">Chargement...</div>
+        </div>
+    </div>
+    <div class="espace" alt="">
+        <div class="grid">
+            <div>
+                <img style="max-width: 400px;display: block;margin: auto;padding: 20px 0 20px 0;" src="https://www.footnormand.fr/wp-content/uploads/2019/12/Alexis-Beka-Beka.jpg" alt="">
+                <div class="joueur" id="matches5">Chargement...</div>
+            </div>
+        </div>
+    <div class="espace"></div>
+    <div class="grid">
+        <div>
+            <img style="max-width: 400px;display: block;margin: auto;padding: 20px 0 20px 0;" src="https://w.forfun.com/fetch/b2/b28ba07f820aeef3ffa5346c331b09bf.jpeg" alt="">
+            <div class="joueur" id="matches6">Chargement...</div>
+        </div>
+    </div>
+    <div class="espace"></div>
+    <div class="grid">
+        <div>
+            <img style="max-width: 400px;display: block;margin: auto;padding: 20px 0 20px 0;" src="https://media.foot-national.com/18/2023/01/photo_article/808538/320915/1200-L-nice-lucas-da-cunha-transfr-en-italie-off.jpg" alt="">
+            <div class="joueur" id="matches7">Chargement...</div>
+        </div>
+    </div>
+    <div class="espace"></div>
+    <div class="grid">
+        <div>
+            <img style="max-width: 400px;display: block;margin: auto;padding: 20px 0 20px 0;" src="https://actucameroun.com/wp-content/uploads/2023/08/theo-ndicka-matam.jpg" alt="">
+            <div class="joueur" id="matches8">Chargement...</div>
+        </div>
+    </div>
+    <div class="espace"></div>
+    <div class="grid">
+        <div>
+            <img style="max-width: 400px;display: block;margin: auto;padding: 20px 0 20px 0;" src="https://www.sofoot.com/convert/LzIwMjMvMDYvMDkxODI2NDcvSWNvbl9zaXBhdXNhXzQ2NjI4MDQ4LTE0MDB4OTM1LmpwZw/image/mercato-loic-bade-reste-au-seville-fc.jpg" alt="">
+            <div class="joueur" id="matches9">Chargement...</div>
+        </div>
+    </div>
+    <div class="espace"></div>
+    <div class="grid">
+        <div>
+            <img style="max-width: 400px;display: block;margin: auto;padding: 20px 0 20px 0;" src="https://tmssl.akamaized.net/images/foto/galerie/kalulu-pierre-milan-2021-2022-1646646434-81489.jpg?lm=1646646448" alt="">
+            <div class="joueur" id="matches10">Chargement...</div>
+        </div>
+    </div>
+    <div class="espace"></div>
+    <div class="grid">
+        <div>
+            <img style="max-width: 400px;display: block;margin: auto;padding: 20px 0 20px 0;" src="https://cdn-s-www.estrepublicain.fr/images/7CDC94E7-1DCE-44EF-A352-EBFB093B5BEA/NW_raw/maxence-prevot-a-fort-bien-debute-une-saison-qu-il-sait-importante-pour-le-fc-sochaux-mais-pour-lui-aussi-photo-er-lionel-vadam-1604431275.jpg" alt="">
+            <div class="joueur" id="matches11">Chargement...</div>
+        </div>
+    </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var api_key = "417a2dcebefc4ceea3b99a44087d74db";
+    var playerIds = ["8708", "125667", "8476", "99664", "133188", "102343", "124620", "192663", "136039", "141295", "493"]; // Ajoutez les identifiants de joueurs supplémentaires ici
+    var gridContainer = document.querySelector('.grid');
+
+    playerIds.forEach(function(playerId, index) {
+        var url = "https://api.football-data.org/v4/persons/" + playerId;
+
+        var request = new XMLHttpRequest();
+        request.open('GET', url);
+        request.setRequestHeader('X-Auth-Token', api_key);
+        request.responseType = 'json';
+
+        request.onload = function() {
+            if (request.status === 200) {
+                var data = request.response;
+                displayPlayerInfo(data, index + 1); // Appel de la fonction pour afficher les informations sur le joueur
+            } else {
+                console.error("Erreur lors de la récupération des données pour le joueur", playerId);
+            }
+        };
+
+        request.onerror = function() {
+            console.error("Erreur lors de la requête pour le joueur", playerId);
+        };
+
+        request.send();
+    });
+
+    function displayPlayerInfo(player, playerId) {
+        var matchesDiv = document.getElementById("matches" + playerId);
+        var playerInfoHTML = '<div class="box">';
+        playerInfoHTML += '<h2 class="rouge">Nom du joueur: ' + player.name + '</h2>';
+        playerInfoHTML += '<p>Nationalité: ' + player.nationality + '</p>';
+        playerInfoHTML += '<p>Date de naissance: ' + player.dateOfBirth + '</p>';
+        playerInfoHTML += '<p>Poste: ' + player.position + '</p>';
+        playerInfoHTML += '<p>Numéro de maillot: ' + player.shirtNumber + '</p>';
+        playerInfoHTML += '</div>';
+
+        var teamInfoHTML = '<div class="box">';
+        teamInfoHTML += '<h3 class="rouge">Équipe actuelle:</h3>';
+        teamInfoHTML += '<p>Nom: ' + player.currentTeam.name + '</p>';
+        teamInfoHTML += '<p>Nom court: ' + player.currentTeam.shortName + '</p>';
+        teamInfoHTML += '<p>Ville: ' + player.currentTeam.address + '</p>';
+        teamInfoHTML += '<p>Site Web: <a href="' + player.currentTeam.website + '">' + player.currentTeam.website + '</a></p>';
+        teamInfoHTML += '<p>Date de fondation: ' + player.currentTeam.founded + '</p>';
+        teamInfoHTML += '<p>Couleurs du club: ' + player.currentTeam.clubColors + '</p>';
+        teamInfoHTML += '<p>Stade: ' + player.currentTeam.venue + '</p>';
+        teamInfoHTML += '</div>';
+
+        teamInfoHTML += '<div class="box">';
+        teamInfoHTML += '<h3 class="rouge">Contrat:</h3>';
+        teamInfoHTML += '<p>Début: ' + player.currentTeam.contract.start + '</p>';
+        teamInfoHTML += '<p>Fin: ' + player.currentTeam.contract.until + '</p>';
+        teamInfoHTML += '</div>';
+
+        // Concaténer les deux chaînes HTML et les assigner à matchesDiv.innerHTML
+        matchesDiv.innerHTML = playerInfoHTML + teamInfoHTML;
+    }
+
+});
+</script>
+</body>
+</html>
