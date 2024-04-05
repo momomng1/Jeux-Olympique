@@ -106,8 +106,8 @@ header nav ul{
 }
 
 .corps a:hover {
-    opacity: 1; /* Augmenter l'opacité au survol */
-    transform: scale(1.1); /* Agrandir légèrement le bouton */
+    opacity: 1;
+    transform: scale(1.1); 
 }
 
 .sect h1 {
@@ -222,23 +222,22 @@ header nav ul{
 
 /* Couleur principale */
 :root {
-    --couleur-principale: #FF5733; /* Exemple de rouge vif */
+    --couleur-principale: #FF5733; 
 }
 
 
 
-/* Couleur de fond */
+
 body {
-    background-color: #F0F0F0; /* Gris clair pour le fond */
+    background-color: #F0F0F0; 
 }
 
-/* Styles des éléments */
 .nav-top a {
-    color: var(--couleur-accent-1); /* Utilisation de la couleur d'accent pour les liens */
+    color: var(--couleur-accent-1); 
 }
 
 .cat-facts {
-    background-color: #D7C378; /* Couleur d'accent pour la section des faits sur les chats */
+    background-color: #D7C378; 
     padding: 50px 0;
     text-align: center;
     margin-top : 50px;
@@ -252,7 +251,7 @@ body {
 .cat-facts h2 {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 30px;
-    color: #1B1B1B; /* Couleur de texte */
+    color: #1B1B1B;
 }
 
 .fact-container {
@@ -262,12 +261,12 @@ body {
     margin-top: 20px;
     font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
-    color: #1B1B1B; /* Couleur de texte */
+    color: #1B1B1B; 
 }
 
 button {
-    background-color: #1B1B1B; /* Couleur de fond du bouton */
-    color: #FFF; /* Couleur de texte du bouton */
+    background-color: #1B1B1B; 
+    color: #FFF; 
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -278,7 +277,7 @@ button {
 }
 
 button:hover {
-    background-color: #000; /* Changement de couleur au survol */
+    background-color: #000; 
 }
 
 .info {
