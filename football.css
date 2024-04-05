@@ -88,3 +88,9 @@ nav {
       color: #FFD966;
     }
   }
+
+  @media  screen and (max-width: 400px) {
+    .grid img{
+        max-height: 250px;
+    }
+}
